@@ -1,0 +1,164 @@
+/* 전체 적용 선택자 선언 - 요소의 width는 전체 너비되도록 설정 */
+* {
+  box-sizing: border-box;
+}
+
+/* header 부분 설정 */
+.site-header {
+  display: fixed;
+  top: 0;
+  /* left: 0;
+  right: 0; */
+  height: 70px;
+  background-color: #ffffff;
+  /* background-color: #3692ff; */
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1920px;
+  height: 100%;
+
+  padding: 0 200px;
+  margin: 0 auto;
+  /* margin-bottom: 0; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 353;
+  gap: 8px;
+  /* text-decoration: none; */
+}
+
+.logo-face {
+  height: 40px;
+}
+
+.logo-text {
+  height: 35px;
+}
+
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 128px;
+  height: 48px;
+  background-color: #3692ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.hero {
+  background-color: #cfe5ff;
+  max-width: 1920px;
+  height: 540px;
+  padding: 0 200px;
+  padding-top: 200px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.hero-text {
+  /* display: block; */
+  width: 357px;
+  height: 260;
+}
+
+.item-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #3692ff;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 40px;
+
+  width: 357px;
+  height: 56px;
+  text-align: center;
+}
+
+.hero-image {
+  max-width: 746px;
+  height: 340;
+}
+
+.feature {
+  padding: 138px 344px;
+
+  background: #ffffff;
+}
+
+.feature-box {
+  max-width: 988px;
+  height: 444px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.feature-text {
+  max-width: 274px;
+  height: 238px;
+}
+
+.feature-label {
+  color: #3692ff;
+}
+
+.hero-bottom {
+  background-color: #cfe5ff;
+  max-width: 1920px;
+  height: 540px;
+
+  padding: 0 200px;
+  padding-top: 103px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-bottom-text {
+  padding-bottom: 172px;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+  max-width: 1920px;
+  height: 160px;
+  background: #000000;
+}
+
+.site-footer-copylight {
+  color: #ffffff;
+}
+
+.site-footer-link {
+  display: flex;
+  gap: 30px;
+
+  color: #ffffff;
+}
+
+.site-footer-link a {
+  color: #ffffff;
+}
